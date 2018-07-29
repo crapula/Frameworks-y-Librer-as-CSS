@@ -1,0 +1,147 @@
+ 
+
+.parallax-section{
+
+    
+    background-image: url("/Materialize/img/fondo.jpg");
+    
+
+    /* Set a specific height */
+    min-height: 50%; 
+  
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    
+
+}
+
+
+
+/*<!--===================================HEADER===================================-->*/
+
+header{
+   
+ padding-top: 2%;
+ padding-bottom: 1%;
+}
+
+header  div > img{
+    width: 100%;
+    
+}
+ 
+
+
+/*<!----------------------------NAV NAVEGACION---------------------------->*/
+ 
+
+#titulo > h3{
+     color: white!important;
+   
+ }
+
+nav{
+    background-color: rgba(0, 0, 0, 0);;
+    height: 0px;
+ }
+ 
+.sidenav{
+    background-color: #616161;
+}
+
+.sidenav > li > a{
+   color: white;   
+}
+
+ 
+
+
+/*<!--===================================SECTION===================================-->*/
+
+section{
+   padding-top: 4%;
+}
+
+
+
+
+/*<!------------------------------CONTENIDO 1------------------------------>   */
+.caja-img{
+width: 50%;
+}
+
+.img-section img{
+
+width: 100%;
+height: 180px;
+ border-radius: 6%;
+ margin-bottom: 4%;
+}
+ 
+ 
+.monumento-expandido img{
+    height: 277px;   
+   
+    }
+    
+  
+  .redes-sociales > ul > li > a > i{ 
+    font-size: 2rem;
+    margin-bottom: 10%;
+   
+}
+
+
+
+
+
+/*<!------------------------------CONTENIDO 2------------------------------>   */
+.medio-texto img{
+    float: left;
+}
+
+
+.piramides-titulo{
+    padding-left: 0px!important;
+   
+}
+
+.piramides-txt {    
+    text-align: justify;
+}
+
+
+.card-panel{
+    background-color: rgba(0, 0, 0, 0);
+    
+}
+
+
+.titulo-autor{
+    text-align: center!important; 
+}
+
+.perfil-autor{
+    text-align: center!important; 
+}
+
+
+
+/*<!--===================================MEDIA QUERIES===================================-->*/
+
+@media only screen and (max-width: 600px) {
+
+    .redes-sociales {
+        display: flex;
+        justify-content: space-around;
+   }
+    
+     .redes-sociales > ul > li{
+       display: inline-block;
+        
+     
+}

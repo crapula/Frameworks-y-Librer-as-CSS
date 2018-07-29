@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Album de musica</title>
+
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--fontawesome-->
+    <link href="../fonts/css/fontawesome-all.css" rel="stylesheet">
+    <!--Mi estilo CSS-->
+    <link rel="stylesheet" href="css/mi-stilo.css">
+
+</head>
+
+<body>
+
+    <!--===================HEADER===================-->
+    <header class="container-fluid">
+        <!--contenedor centrado-->
+        <div class="container">
+
+            <!--fila-->
+            <div class="row">
+
+                <!--logo banda-->
+                <div class="col-md-2 text-center">
+                    <img src="img/logo.svg" class="img-fluid logo" alt="Responsive image">
+                </div>
+                <!--CIERRE logo banda-->
+
+                <!--carousel-->
+                <div class="col-md-7 carousel-centro">
+
+                    <div id="demo" class="carousel slide" data-ride="carousel">
+
+                        <!-- Indicadores -->
+                        <ul class="carousel-indicators">
+                            <li data-target="#demo" data-slide-to="0" class="active"></li>
+                            <li data-target="#demo" data-slide-to="1"></li>
+                            <li data-target="#demo" data-slide-to="2"></li>
+
+                        </ul>
+                        <!-- presentación-->
+                        <div class="carousel-inner text-center">
+
+                            <!-- 0 -->
+                            <div class="carousel-item active text-cente">
+                                <img class="img-thumbnail" src="img/0E0.jpg" alt="Chicago">
+                            </div>
+                            <!-- 1 -->
+                            <div class="carousel-item text-cente">
+                                <img class="img-thumbnail" src="img/beautiful-soda-stereo.jpg" alt="New York">
+                            </div>
+                            <!-- 2-->
+                            <div class="carousel-item text-cente">
+                                <img class="img-thumbnail" src="img/concierto.jpg" alt="New York">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <!--CIERRE Scarousel-->
+
+                <!--fuentes iconos-->
+                <div class="col-md-3 text-center iconos">
+                    <div class="text-center">
+                        <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-twitter-square"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-pinterest-square"></i>
+                        <i class="fab fa-youtube-square"></i>
+                    </div>
+                </div>
+                <!--CIERRE fuentes iconos-->
+
+
+
+
+
+            </div>
+            <!--cierre div row -->
+        </div>
+        <!--cierre container-->
+
+    </header>
+    <!--cierre container fluid-->
+
+
+    <!--===================NAVEGACION===================-->
+    
+     
+
+    <!--contenedor centrado-->
+    <div class="container-fluid navegacion">
+    <nav class="container">
+
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="d-block  d-sm-none  d-none  d-sm-block  d-md-none  d-none  d-md-block  d-lg-none">
+                    <a class="navbar-brand text-white" href="#">Menu <i class="fas fa-arrow-circle-right"></i></a>
+                </div>
+                    <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse  justify-content-around" id="navbarNavAltMarkup">
+                      <div class="navbar-nav text-center">
+                        <a class="nav-item nav-link text-white bg-dark active" href="#"><i class="fas fa-home"></i> Inicio <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link text-white bg-dark" href="#"><i class="far fa-object-group"></i> Grupo</a>
+                        <a class="nav-item nav-link text-white bg-dark" href="#"><i class="fas fa-music"></i> Artista</a>
+                        <a class="nav-item nav-link text-white bg-dark" href="#"><i class="fas fa-thumbs-up"></i> Top10</a>
+                         
+                        <a class="nav-item nav-link text-white bg-dark" href="#"> <i class="fas fa-book-open"></i> Letras</a>
+                        <a class="nav-item nav-link text-white bg-dark" href="#"><i class="fas fa-volume-up"></i> Acordes</a>
+                        
+                        
+                      </div>
+                    </div>
+                  </nav>
+    
+
+
+
+    </nav>    <!--CIERRE contenedor centrado-->
+</div>
+
+
+    <!--===================SECTION===================-->
+    <section class="container">
+        <div class="row">
+            <!--contenido de cita-->
+            <div class="col-md-8">
+                
+                <div class="todo-el-contenido-1"><!--todo el contenido 1 -->
+                    <!--contenido 1-->
+                    <div class="row">
+                        <div class="col text-justify">
+                            <h4>Nada Personal y Obssras</h4>
+                            <p>En abril, la banda decidió presentar oficialmente el álbum en un concierto en el Estadio Obras
+                                Sanitarias en Buenos Aires. Allí hicieron cuatro shows con una asistencia total de 20,000
+                                espectadores. Las imágenes del primer show fueron editadas en un video de larga duración,
+                                [24] el destacado crítico de música y fundador de la revolucionaria Rock y Pop Radio en Buenos
+                                Aires, terminando así su crónica de concierto</p>
+                        </div>
+                        <img src="img/soda-stereo.jpg" class="img-fluid col-md-3">
+                    </div>
+
+
+                    <div class="input-group mb-3 comentario"><!--comentario -->
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1">
+                                <i class="fas fa-user"></i>
+                            </span>
+                        </div>
+                        <textarea id="textarea" class="form-control" placeholder="Cometario" rows="1"></textarea>
+                    </div>
+                    <!--CIERRE textarea  -->
+                    <!--CIERRE contenido 1 -->
+                </div> <!--CIERRE todo el contenido 1 -->
+               
+
+
+                
+                <div class="todo-el-contenido-2"><!--todo el contenido 2 -->
+                    <!--contenido 1-->
+                    <div class="row">
+                            <img src="img/soda-stereo.jpg" class="img-fluid col-md-3"> 
+                        <div class="col text-justify">
+                            <h4>Nada Personal y Obssras</h4>
+                            <p>En abril, la banda decidió presentar oficialmente el álbum en un concierto en el Estadio Obras
+                                Sanitarias en Buenos Aires. Allí hicieron cuatro shows con una asistencia total de 20,000
+                                espectadores. Las imágenes del primer show fueron editadas en un video de larga duración,
+                                [24] el destacado crítico de música y fundador de la revolucionaria Rock y Pop Radio en Buenos
+                                Aires, terminando así su crónica de concierto</p>
+                        </div>
+                       
+                    </div>
+
+
+                    <div class="input-group mb-3 comentario"><!--comentario -->
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1">
+                                <i class="fas fa-user"></i>
+                            </span>
+                        </div>
+                        <textarea id="textarea" class="form-control" placeholder="Cometario" rows="1"></textarea>
+                    </div>
+                    <!--CIERRE textarea  -->
+                    <!--CIERRE contenido 1 -->
+                </div><!--CIERRE todo el contenido 2 -->
+
+                
+            </div>
+            <!--CIERRE contenido de cita-->
+
+
+
+
+            <div class="col">
+                <!--buscar-->
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">
+                            <i class="fas fa-search"></i>
+                        </span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Buscar">
+                </div>
+                <ul class="list-group">
+                    <li class="list-group-item text-white bg-dark color-busqueda-1">Musicos</li>
+                    <li class="list-group-item color-busqueda-2">Historia</li>
+                    <li class="list-group-item text-white bg-dark color-busqueda-1">Discografía</li>
+                    <li class="list-group-item color-busqueda-2">Noticia</li>
+                    <li class="list-group-item text-white bg-dark color-busqueda-1">Gira</li>
+                    <li class="list-group-item color-busqueda-2">Foto</li>
+                    <li class="list-group-item text-white bg-dark color-busqueda-1">Enlaces</li>
+                    <li class="list-group-item color-busqueda-2">Créditos</li>
+                    <li class="list-group-item text-white bg-dark color-busqueda-1">Destacado</li>
+                </ul>
+            </div>
+            <!--CIERRE buscar-->
+
+
+
+        </div>
+        <!--CIERRE div row-->
+        <!--CIERRE buscador-->
+
+        < </section>
+
+            <!--===================FOOTER===================-->
+            <!-- Footer -->
+            <footer class="container-fluid">
+                <div class="container">
+                    <div class="row">
+                        <!-- Content -->
+                        <div class="col">
+                            <h5 class="text-uppercase">© Derechos</h5>
+                            <p class="text-justify"> Queda prohibido copiar, reproducir, distribuir, publicar, transmitir, difundir, o en cualquier
+                                modo explotar cualquier parte de este servicio sin la autorización previa por escrito de
+                                Cristofer Martinez o de los titulares correspondientes. Sin embargo, usted podrá bajar material
+                                a su computadora personal para uso exclusivamente personal o educacional y no comercial limitado
+                                a una copia por página. Usted no podrá remover o alterar de la copia ninguna leyenda de Derechos
+                                de Autor o la que manifieste la autoría del material.</p>
+                        </div>
+                        <!-- CIERRE Content -->
+
+                        <!-- contacto -->
+                        <div class="col-md-4">
+                            <h5 class="text-uppercase">
+                                <i class="fas fa-phone-volume"></i> Contacto</h5>
+                            <h6>Autor: Cristofer martinez</h6>
+                            <h6>Tel: 3138181817</h6>
+                            <h6>Correo@: ESTUDIOMUSIC@hotmail.com</h6>
+                        </div>
+                        <!--CIERRE contacto -->
+
+                    </div>
+                    <!--CIERRE div row -->
+
+                    <!-- Copyright -->
+                    <div class="footer-copyright text-center">© 2018 Copyright
+                    </div>
+                    <!--CIERRE Copyright -->
+
+                </div>
+                <!--CIERRE container-->
+            </footer>
+
+            <!-- Footer -->
+
+
+            <!--===================JAVA SCRIPT===================-->
+
+            <!--jQuery first-->
+            <script src="js/jquery-3.3.1.slim.min.js"></script>
+
+            <!--Popper JS -->
+            <script src="js/popper.js/1.14.3/umd/popper.min.js"></script>
+
+            <!-- Bootstrap JS -->
+            <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
+</body>
+
+</html>
